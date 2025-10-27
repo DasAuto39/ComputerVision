@@ -5,7 +5,7 @@ def main():
     data_path = "data.yaml"
 
     # Load YOLOv5s model
-    model = YOLO("runs/detect/sign_detector8/weights/last.pt")
+    model = YOLO("runs\detect\sign_detector\weights\last.pt")
 
     # Train configuration
     model.train(
